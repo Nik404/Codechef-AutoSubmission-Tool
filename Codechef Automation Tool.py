@@ -39,6 +39,6 @@ code_element.send_keys(code)
 browser.find_element_by_xpath('//*[@id="edit-language"]/option[i]')  # replace 'i' with the lagnuage of code you want
 
 #final submission
-browser.find_element_by_id("edit-submit").click(
+browser.find_element_by_id("edit-submit").click()
   
 
